@@ -7,7 +7,15 @@ Stylesheet: Main Stylesheet
 /*********************
 GENERAL STYLES
 *********************/
-
+body {
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #878787;
+}
+.menu-item a {
+    color: #878787;
+    font-weight: 400;
+    font-size: 18px;
+}
 /*********************
 LINK STYLES
 *********************/
@@ -26,9 +34,61 @@ HEADER STYLES
 .header ul.off-canvas-list li {
   list-style: none; }
 
+.tagline {
+    font-style: italic;
+    margin-top: 22px;
+    text-align: center;
+}
 /*********************
 NAVIGATION STYLES
 *********************/
+.top-bar {
+    /*max-width: 940px;*/
+    height: 180px;}
+
+.top-bar-left-1 {
+    padding-left: 0;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #fff;
+}
+
+.top-bar-right-1 {
+    margin-top: 60px;
+    text-align: right; }
+
+.top-nav {
+    display: inline-block; }
+
+.nav-container {
+    position: relative;
+    max-height: 43px;
+}
+
+.top-nav-social {
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-left: 1rem; }
+
+.top-nav-social i {
+    padding: 0 .8rem;
+    position: relative;
+    top: -13px;}
+
+.menu-item a {
+    border-bottom: 3px solid #8fc563;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.menu-item a:hover {
+    color: #fff;
+    background-color: #f37021;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+
 .top-bar .title-area {
   z-index: 1; }
 
