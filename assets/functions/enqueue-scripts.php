@@ -11,6 +11,15 @@ function site_scripts() {
     // Adding scripts file in the footer
     wp_enqueue_script( 'site-js', get_template_directory_uri() . '/assets/js/scripts.js', array( jquery ), '', true );
     
+    // Adding Unslider script file in the footer
+    wp_enqueue_script( 'unslider-js', get_template_directory_uri() . '/assets/js/unslider.js', array( jquery ), '', true );
+    
+    // Adding Unslider CSS
+    wp_enqueue_style( 'unslider-css', get_template_directory_uri() . '/assets/css/dist/css/unslider.css', array(), '', 'all' );
+    
+    // Adding Unslider-dots CSS
+    wp_enqueue_style( 'unslider-dots-css', get_template_directory_uri() . '/assets/css/dist/css/unslider-dots.css', array(), '', 'all' );
+    
      // Register Motion-UI
     wp_enqueue_style( 'motion-ui-css', get_template_directory_uri() . '/vendor/motion-ui/dist/motion-ui.min.css', array(), '', 'all' );
 	

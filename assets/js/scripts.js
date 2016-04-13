@@ -16,3 +16,7 @@ jQuery(document).ready(function() {
 	jQuery('iframe[src*="youtube.com"], iframe[src*="vimeo.com"]').wrap("<div class='flex-video'/>");
 
 });
+
+jQuery(document).ready(function($) {
+    $('.hero-slider').unslider();
+});
