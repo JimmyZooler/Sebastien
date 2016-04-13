@@ -39,15 +39,27 @@ HEADER STYLES
     margin-top: 22px;
     text-align: center;
 }
+
+@media only screen and (max-width: 900px) {
+    .top-bar {
+        text-align: center;
+    }
+    .top-bar-left-1 {
+        float: none;
+        margin: 0 auto;
+    }
+    .top-bar-right-1 {
+        float: none !important;
+        margin-top: 20px !important;
+    }
+}
 /*********************
 NAVIGATION STYLES
 *********************/
-.top-bar {
-    /*max-width: 940px;*/
-    height: 180px;}
 
 .top-bar-left-1 {
     padding-left: 0;
+    display: inline-block;
 }
 
 .top-bar, .top-bar ul {
@@ -56,7 +68,8 @@ NAVIGATION STYLES
 
 .top-bar-right-1 {
     margin-top: 60px;
-    text-align: right; }
+    
+    float: right; }
 
 .top-nav {
     display: inline-block; }
@@ -91,6 +104,40 @@ NAVIGATION STYLES
 
 .top-bar .title-area {
   z-index: 1; }
+
+.menu-icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 8px;}
+
+.menu-icon:after {
+    height: 4px;
+    background-color: #878787;
+    box-shadow: 0 8px 0 #878787,0 16px 0 #878787; }
+
+.menu-icon:hover:after {
+    box-shadow: 0 8px 0 #cacaca,0 16px 0 #cacaca; }
+
+.mobile-menu {
+    margin: 0;
+    float: right;
+    display: inline-block; }
+
+.mobile-menu li {
+    list-style: none; }
+
+.mobile-social {
+    display: inline-block;
+    font-size: 1.5rem;
+    float: left; }
+
+.mobile-social i {
+    padding: 0 .8rem; }
+
+.mobile-container {
+    border-bottom: 3px solid #8fc563;
+overflow: auto; }
 
 .off-canvas-list ul {
   margin-left: 0; }
