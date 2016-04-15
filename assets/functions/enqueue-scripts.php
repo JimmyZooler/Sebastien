@@ -25,7 +25,7 @@ function site_scripts() {
 	
 	// Select which grid system you want to use (Foundation Grid by default)
     wp_enqueue_style( 'foundation-css', get_template_directory_uri() . '/vendor/foundation-sites/dist/foundation.min.css', array(), '', 'all' );
-     //wp_enqueue_style( 'foundation-css', get_template_directory_uri() . '/vendor/foundation-sites/dist/foundation-flex.min.css', array(), '', 'all' );
+//    wp_enqueue_style( 'foundation--flex-css', get_template_directory_uri() . '/vendor/foundation-sites/dist/foundation-flex.min.css', array(), '', 'all' );
     
     // Link to Google Fonts 
     wp_enqueue_style('sebastien-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto:400,500');

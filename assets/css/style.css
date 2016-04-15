@@ -226,6 +226,46 @@ POSTS & CONTENT STYLES
 IMAGE GALLERY STYLES
 *********************/
 /*********************
+HERO IMAGE SLIDER STYLES
+*********************/
+.unslider {
+    position: relative;
+    overflow: hidden; }
+
+.unslider-arrow {
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url('/sebastien/wordpress/wp-content/themes/sebastien_schwab/circled_chev_right.png');
+    background-size: cover;
+    text-indent: -999rem;
+    opacity: .6;
+    transition: opacity .2s; }
+
+.unslider-arrow:hover {
+    opacity: 1; }
+.next {
+    top: 42%; }
+
+.prev {
+    top: 42%;
+    transform: rotate(-180deg); }
+
+.unslider-nav {
+    position: relative;
+    top: -25px; }
+
+.slider-image {
+    background-image: url("http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/SebastienSchwab-5_downsize.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover; 
+    background-size: cover; 
+    height: 70vh; 
+    overflow: hidden; }
+
+/*********************
 PAGE NAVI STYLES
 *********************/
 .page-navigation {
@@ -361,6 +401,37 @@ FOOTER STYLES
 .footer {
   clear: both;
   margin-top: 1em; }
+
+.copyright {
+    text-align: center; }
+
+.footer nav {
+    text-align: center; }
+
+#menu-footer-site-map {
+    display: inline-block; }
+
+#menu-footer-site-map .menu-item a {
+    border-bottom: none; }
+
+#menu-footer-site-map .menu-item a:hover {
+    color: #333;
+    background: transparent; }
+
+#footer-header {
+    display: inline-block;
+    border-bottom: 3px solid #8fc563;
+}
+
+#footer-thumbnails {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 620px) {
+    .footer nav {
+        font-size: 12px;
+    }
+}
 
 /*********************
 FOUNDATION STYLES
