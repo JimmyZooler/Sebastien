@@ -1,7 +1,7 @@
 					<footer class="footer" role="contentinfo">
 						<div id="inner-footer" class="row">
                                                     <h4 id="footer-header">Friends of Chef Sebastien</h4>
-                                                    <div id="footer-thumbnails" class="row">
+                                                    <div id="footer-thumbnails" class="row column">
                                                         <div class="column small-3">
                                                             <img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/Mystic.jpg">
                                                             <p>The Mystic Dandelion</p>

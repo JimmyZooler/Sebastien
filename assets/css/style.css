@@ -40,6 +40,11 @@ HEADER STYLES
     text-align: center;
 }
 
+@media only screen and (max-width: 620px) {
+    .tagline {
+        font-size: 14px;
+    }
+}
 @media only screen and (max-width: 900px) {
     .top-bar {
         text-align: center;
@@ -431,6 +436,7 @@ FOOTER STYLES
 @media only screen and (max-width: 620px) {
     .footer p {
         font-size: 12px;
+        line-height: 1.2;
     }
     #menu-footer-site-map .menu-item a {
         font-size: 12px;
