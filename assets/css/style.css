@@ -155,7 +155,12 @@ overflow: auto; }
 POSTS & CONTENT STYLES
 *********************/
 #content #inner-content {
-  padding: 1rem 0rem; }
+    padding: 1rem 0rem;
+}
+
+#content {
+    background-image: url('http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/45degreee_fabric_@2X.png');
+}
 
 .page-title .vcard {
   border: 0px;
@@ -226,6 +231,50 @@ POSTS & CONTENT STYLES
   .post-password-form input[type="submit"]:hover, .post-password-form input[type="submit"]:focus {
     background: #1583cc;
     color: #fff; }
+  
+.three-locations {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 10px auto 20px auto;
+    text-align: center; }
+
+.location {
+    position: relative; }
+
+.location-heading {
+    color: #fff;
+    opacity: 1;
+    position: absolute;
+    top: 35%;
+    left: 0;}
+
+.location-heading-1 {
+    color: #fff;
+    opacity: 1;
+    line-height: 300px;
+}
+
+.orange-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 112, 33, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+      -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+
+.orange-overlay:hover {
+    background-color: rgba(243, 112, 33, 0.8);
+}
+  
+  #main-header {
+      margin-bottom: 30px;
+      border-bottom: 3px solid #8fc563;
+      display: inline-block; }
 
 /*********************
 IMAGE GALLERY STYLES
@@ -405,10 +454,11 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  margin-top: 1em; }
+  margin-top: 3em; }
 
 .copyright {
-    text-align: center; }
+    text-align: center;
+    font-size: 14px; }
 
 .footer nav {
     text-align: center;
