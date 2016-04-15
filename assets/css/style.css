@@ -406,7 +406,8 @@ FOOTER STYLES
     text-align: center; }
 
 .footer nav {
-    text-align: center; }
+    text-align: center;
+    margin-top: 20px; }
 
 #menu-footer-site-map {
     display: inline-block; }
@@ -428,8 +429,12 @@ FOOTER STYLES
 }
 
 @media only screen and (max-width: 620px) {
-    .footer nav {
+    .footer p {
         font-size: 12px;
+    }
+    #menu-footer-site-map .menu-item a {
+        font-size: 12px;
+        padding: .5rem .5rem;
     }
 }
 
