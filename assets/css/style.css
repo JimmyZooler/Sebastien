@@ -96,8 +96,11 @@ NAVIGATION STYLES
     position: relative;
     top: -13px;}
 
-.menu-item a {
+.medium-horizontal .menu-item a {
     border-bottom: 3px solid #8fc563;
+}
+
+.menu-item a {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -152,6 +155,8 @@ overflow: auto; }
     border-bottom: 0px; }
   .off-canvas-list ul .dropdown {
     margin-left: 20px; }
+
+   
 
 /*********************
 POSTS & CONTENT STYLES
