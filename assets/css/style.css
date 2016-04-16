@@ -598,10 +598,17 @@ FOOTER STYLES
     border-bottom: 3px solid #8fc563;
 }
 
+.footer-column {
+    text-align: center; }
+
 #footer-thumbnails {
     margin-top: 20px;
 }
-
+@media only screen and (min-width: 820px) {
+    .footer-column {
+        width: 12.5%;
+    }
+}
 @media only screen and (max-width: 620px) {
     .footer p {
         font-size: 12px;
