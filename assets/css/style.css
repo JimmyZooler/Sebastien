@@ -248,7 +248,7 @@ HOME PAGE STYLES
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 3px 4px rgba(136, 136, 136, 0.5); 
+    box-shadow: 0px 4px 4px rgba(136, 136, 136, 0.5); 
  } 
 
 .home-page-section {
@@ -419,6 +419,10 @@ PAGE STYLES
     margin: 1rem 0;
 }
 
+.flex-video {
+    padding-bottom: 55%;
+}
+
 .about-page-section p {
     margin-top: 15px;
 }
@@ -427,7 +431,7 @@ PAGE STYLES
     .about-page-section {
         margin: 40px 0 60px 0;
         padding: 30px 40px 50px 40px; }
-    #about-page-quote {
+    #about-page-quote  {
         font-size: 22px; }
 }
 
@@ -444,10 +448,62 @@ PAGE STYLES
         font-size: 1.6rem;
     }
     .section-header img {
-    width: 40px;
-}
+    width: 40px; }
+    
 }
 
+/*********************
+LUNCH PAGE STYLES
+*********************/
+
+#lunch-image {
+    background-image: url('https://huffestates.com/wp-content/uploads/2014/07/huffs-the-winery.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+#lunch-image h4 {
+    font-size: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    padding: 0 1rem;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden; }
+
+.lunch-menu {
+    margin: 1rem 0;
+}
+
+.lunch-menu p {
+    text-align: left;
+    margin: 2rem; }
+
+.lunch-menu p span {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 840px) and (min-width: 500px)  {
+    #lunch-image h4 {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width: 840px) {
+    #lunch-image h4 {
+        font-size: 1.6rem;
+    }
+}
 /*********************
 IMAGE GALLERY STYLES
 *********************/
