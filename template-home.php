@@ -19,7 +19,7 @@ Template Name: Home Page
             <div id="inner-content" class="row">
 
                 <main id="main" class="large-12 medium-12 columns" role="main">
-                    <section class="home-page-section">
+                    <section class="home-page-section white-box">
                         <h3 id="main-header">One Great Chef - Three Locations</h3>
                         <div class="row">
                             <div class="locations columns medium-4">
@@ -39,7 +39,7 @@ Template Name: Home Page
                             </div>
                         </div>
                     </section>
-                    <section id="chef-quote" >
+                    <section id="chef-quote" class="white-box">
                         <p ><?php the_field('chef_quote')?></p>
                         <p id="chef-name">- Chef Sebastien</p>
                     </section>

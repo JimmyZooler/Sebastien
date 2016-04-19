@@ -164,8 +164,7 @@ POSTS & CONTENT STYLES
 #content #inner-content {
     padding: 0rem 0rem;
     position: relative;
-    top: -40px;
-    z-index: 999;
+    z-index: 15;
 }
 
 #content {
@@ -245,12 +244,19 @@ POSTS & CONTENT STYLES
  /*********************
 HOME PAGE STYLES
 *********************/
-.home-page-section {
+ .white-box {
     background-color: #fff;
-    padding: 30px 20px;
     border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 4px rgba(136, 136, 136, 0.5); 
+ } 
+
+.home-page-section {
+    padding: 25px 20px;
     margin: 0px auto 40px auto;
-    text-align: center; }
+    position: relative;
+    top: -40px;
+    }
 
 .location {
     position: relative;
@@ -305,13 +311,13 @@ HOME PAGE STYLES
     display: inline-block; }
   
 #chef-quote {
-    background-color: #fff;
     padding: 40px 60px 20px 60px;
-    border-radius: 10px;
     text-align: left;
     font-size: 28px;
     font-style: italic;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    position: relative;
+    top: -40px; }
   
 #chef-name {
     font-size: 30px;
@@ -320,8 +326,10 @@ HOME PAGE STYLES
 
 @media only screen and (min-width: 640px)  {
     .location img {
-        width: 100%;
-    }
+        width: 100%; }
+    
+    .home-page-section, #chef-quote {
+        top: -60px;}
 }
 
 @media only screen and (min-width: 520px)  {
@@ -384,6 +392,63 @@ HOME PAGE STYLES
 }
 
 /*********************
+PAGE STYLES
+*********************/
+.about-page-section {
+    margin: 40px 0 50px 0;
+    padding: 30px 30px 40px 30px;
+}
+
+.section-header {
+    border-bottom: 3px solid #8fc563;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.section-header img {
+    width: 25px;
+}
+
+#about-page-quote {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    font-size: 95%;
+}
+
+.about-page-content img, #video {
+    margin: 1rem 0;
+}
+
+.about-page-section p {
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 640px) {
+    .about-page-section {
+        margin: 40px 0 60px 0;
+        padding: 30px 40px 50px 40px; }
+    #about-page-quote {
+        font-size: 22px; }
+}
+
+@media only screen and (min-width: 840px) {
+    .about-page-section p {
+        font-size: 20px;
+        padding-right: 50px;}
+    .section-header img {
+        width: 60px; }
+}
+
+@media only screen and (max-width: 840px) and (min-width: 500px)  {
+    .about-page-section h2 {
+        font-size: 1.6rem;
+    }
+    .section-header img {
+    width: 40px;
+}
+}
+
+/*********************
 IMAGE GALLERY STYLES
 *********************/
 /*********************
@@ -430,10 +495,7 @@ HERO IMAGE SLIDER STYLES
     .unslider-arrow {
     width: 50px;
     height: 50px; }
-    
-    #content #inner-content {
-        top: -60px;}
-    
+      
     .unslider-nav {
         top: -60px; }
 }
