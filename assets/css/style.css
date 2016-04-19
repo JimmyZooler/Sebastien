@@ -455,6 +455,10 @@ PAGE STYLES
 /*********************
 LUNCH PAGE STYLES
 *********************/
+.lunch-page-section {
+    margin: 40px 0 50px 0;
+    padding: 20px;
+}
 
 #lunch-image {
     background-image: url('https://huffestates.com/wp-content/uploads/2014/07/huffs-the-winery.jpg');
@@ -503,6 +507,21 @@ LUNCH PAGE STYLES
     #lunch-image h4 {
         font-size: 1.6rem;
     }
+}
+
+.orange-bar {
+    color: #fff;
+    background-color: #f37021;
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    padding: 2rem 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0; }
+
+.hours-location {
+    padding: 2rem 0; 
 }
 /*********************
 IMAGE GALLERY STYLES
