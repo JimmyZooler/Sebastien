@@ -601,10 +601,10 @@ CATERING PAGE STYLES
 }
 
 #catering-button a {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #fff;
     border-radius: 5px;
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
 }
 
 .green-button:hover {
@@ -613,6 +613,11 @@ CATERING PAGE STYLES
     color: #fff;
 }
 
+@media only screen and (min-width: 440px) {
+    #catering-button a {
+        font-size: 1.6rem;
+        padding: 1rem 3rem; }
+}
 @media only screen and (max-width: 840px) and (min-width: 500px)  {
     #lunch-image h4 {
         font-size: 1.2rem;
