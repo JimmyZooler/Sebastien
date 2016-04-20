@@ -596,11 +596,11 @@ CATERING PAGE STYLES
     text-align: center;
 }
 
-#catering-button {
+#catering-button, #mystic-button {
     margin: 4rem 0;
 }
 
-#catering-button a {
+#catering-button a, #mystic-button a {
     font-size: 1rem;
     color: #fff;
     border-radius: 5px;
@@ -612,11 +612,73 @@ CATERING PAGE STYLES
     box-shadow: none;
     color: #fff;
 }
+.mystic-page {
+    margin: 40px 0 50px 0;
+    padding: 20px;
+}
+
+.mystic-section {
+    margin: 3rem 0;
+}
+
+.mystic-text {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.mystic-rooms {
+    margin: 3rem;
+}
+
+.mystic-room {
+    margin: 2rem 0;
+}
+
+.contact-form-container {
+    margin: 3rem 0;
+}
+
+.contact-form-container .wpcf7-submit {
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 7px 5px 7px;
+    background-color: #8fc563;
+    box-shadow: 0px 4px 4px rgba(136, 136, 136, 0.9);
+    border: none;
+    margin: 0 auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-form-container .wpcf7-submit:hover {
+    background-color: #7aba45;
+    box-shadow: none;
+    color: #fff;
+}
+
+@media only screen and (min-width: 640px) {
+    .mystic-text {
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    .mystic-room {
+        margin: 0; }
+    #mystic-button a {
+        font-size: 1.6rem;
+        padding: 1rem 3rem; }
+}
 
 @media only screen and (min-width: 440px) {
     #catering-button a {
         font-size: 1.6rem;
         padding: 1rem 3rem; }
+    .contact-form-container .wpcf7-submit {
+        font-size: 1.6rem;
+        padding: 1rem 3rem;
+    }
 }
 @media only screen and (max-width: 840px) and (min-width: 500px)  {
     #lunch-image h4 {
@@ -628,9 +690,15 @@ CATERING PAGE STYLES
         font-size: 1.6rem;
     }
     .catering-content {
-    padding-left: 50px;
-    padding-right: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
+    .mystic-text {
+        font-size: 1.4rem;
+        margin: 3rem 0;
+        padding-left: 3rem;
+    }
+    
 }
 
 @media only screen and (min-width: 640px) and (max-width: 940px){
