@@ -14,7 +14,7 @@ Template Name: Lunch Page
 			    <section class="white-box lunch-page-section">
                         
                                 <div class="row">
-                                    <h2 class="section-header"><img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/nexa_header_leaves_left-1.jpg" max-width="80%"><?php the_field('lunch_page_header')?><img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/nexa_header_leaves_right-1.jpg" max-width="80%"></h2>
+                                    <h2 class="section-header"><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/nexa_header_leaves_left.jpg" max-width="80%"><?php the_field('lunch_page_header')?><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/nexa_header_leaves_right.jpg" max-width="80%"></h2>
                                     <h3 class="sub-header"><?php the_field('lunch_page_header_2')?></h3>
                                     <div id="lunch-image">
                                         <div class="overlay"></div>

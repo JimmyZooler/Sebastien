@@ -13,14 +13,14 @@ Template Name: Catering Page
 		    <main id="main" class="large-12 medium-12 columns" role="main">
                         <section class="white-box lunch-page-section">
                         
-                            <h2 class="section-header catering-header"><img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/nexa_header_leaves_left-1.jpg" max-width="80%"><?php the_field('catering_title')?><img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/nexa_header_leaves_right-1.jpg" max-width="80%"></h2>
+                            <h2 class="section-header catering-header"><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/nexa_header_leaves_left.jpg" max-width="80%"><?php the_field('catering_title')?><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/nexa_header_leaves_right.jpg" max-width="80%"></h2>
                             <h3 class="sub-header"><?php the_field('catering_sub_header')?></h3>
                             
                             <div class="catering-content">
                                 <div class="row catering-section">
                                     <div id="catering-1" class="columns medium-4 catering-image">
                                         <div class="catering-event">
-                                            <img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/corporate_square.jpg">
+                                            <img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/corporate_square.jpg">
                                             <div class="overlay">
                                                 <div class="button-container">
                                                     <h3>Private & Corporate Events</h3>
@@ -38,7 +38,7 @@ Template Name: Catering Page
                                 <div class="row catering-section">
                                     <div id="catering-2" class="columns medium-4 catering-image">
                                         <div class="catering-event">
-                                            <img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/wedding_square.jpg">
+                                            <img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/wedding_square.jpg">
                                             <div class="overlay">
                                                 <div class="button-container">
                                                     <h3>Memorable Weddings</h3>
@@ -54,7 +54,7 @@ Template Name: Catering Page
                                 <div class="row catering-section">
                                     <div id="catering-3" class="columns medium-4 catering-image">
                                         <div class="catering-event">
-                                            <img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/intimate_square.jpg">
+                                            <img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/intimate_square.jpg">
                                             <div class="overlay">
                                                 <div class="button-container">
                                                     <h3>Intimate Dinners</h3>
@@ -69,7 +69,7 @@ Template Name: Catering Page
                                 </div>
                             </div>
                             <div id="catering-button" class="button-container">
-                                <a class="green-button" href="#">Tell us about your Event</a>
+                                <a class="green-button" href="<?php echo home_url(); ?>/contact">Tell us about your Event</a>
                             </div>
                             
                         </section>

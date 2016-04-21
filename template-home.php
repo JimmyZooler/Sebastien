@@ -24,17 +24,17 @@ Template Name: Home Page
                         <div class="row">
                             <div class="locations columns medium-4">
                                 <div class="location">
-                                    <a class="location-link" href="#"><img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/layer-7.jpg" ><div class="orange-overlay"><h2 class="location-heading-1">Huff Estates</h2></div></a>
+                                    <a class="location-link" href="#"><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/layer-7.jpg" ><div class="orange-overlay"><h2 class="location-heading-1">Huff Estates</h2></div></a>
                                 </div>
                             </div>
                             <div class="columns medium-4">
                                 <div class="location">
-                                    <a class="location-link" href="#"><img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/Your_event.jpg" ><div class="orange-overlay"><h2 class="location-heading-1">Your Event</h2></div></a>
+                                    <a class="location-link" href="#"><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/Your_event.jpg" ><div class="orange-overlay"><h2 class="location-heading-1">Your Event</h2></div></a>
                                 </div>
                             </div>
                             <div class="columns medium-4">
                                 <div class="location" >
-                                    <a class="location-link" href="#"><img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/BandB.jpg" ><div class="orange-overlay"><h2 class="location-heading">The Mystic Dandelion</h2></div></a>
+                                    <a class="location-link" href="#"><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/BandB.jpg" ><div class="orange-overlay"><h2 class="location-heading">The Mystic Dandelion</h2></div></a>
                                 </div>
                             </div>
                         </div>

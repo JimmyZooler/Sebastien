@@ -106,7 +106,7 @@ NAVIGATION STYLES
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-.menu-item a:hover {
+.menu-item a:hover, .top-nav .current-menu-item a, .vertical .current-menu-item a {
     color: #fff;
     background-color: #f37021;
     border-top-left-radius: 3px;
@@ -639,6 +639,7 @@ CATERING PAGE STYLES
 }
 
 .contact-form-container .wpcf7-submit {
+    width: 100%;
     font-size: 1.2rem;
     color: #fff;
     border-radius: 5px;

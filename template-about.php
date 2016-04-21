@@ -12,7 +12,7 @@ Template Name: About Page
 	
 		    <main id="main" class="large-12 medium-12 columns" role="main">
                         <section class="white-box about-page-section">
-                            <h2 class="section-header"><img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/nexa_header_leaves_left-1.jpg" max-width="80%">Meet Chef Sebastien Schwab<img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/nexa_header_leaves_right-1.jpg" max-width="80%"></h2>
+                            <h2 class="section-header"><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/nexa_header_leaves_left.jpg" max-width="80%">Meet Chef Sebastien Schwab<img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/nexa_header_leaves_right.jpg" max-width="80%"></h2>
                             <h4 id="about-page-quote"><?php the_field('about_page_quote')?></h4>
                             <div class="row about-page-content">
                                 <div class="columns small-12 medium-5 text-center">

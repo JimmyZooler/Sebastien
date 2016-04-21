@@ -3,7 +3,7 @@
 
 <div class="top-bar row" id="top-bar-menu">
 	<div class="top-bar-left-1 ">
-            <a href="<?php echo home_url(); ?>"><img src="wp-content/themes/Sebastien_Schwab/Sebastien_logo_crop.jpg" width="266px"/></a>
+            <a href="<?php echo home_url(); ?>"><img src="<?php echo home_url(); ?>/wp-content/themes/Sebastien_Schwab/Sebastien_logo_crop.jpg" width="266px"/></a>
 	</div>
 	<div class="top-bar-right-1 show-for-medium">
             <div class="nav-container">
