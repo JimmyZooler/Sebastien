@@ -950,6 +950,12 @@ FOOTER STYLES
 
 .footer-column {
     text-align: center; }
+.footer-column a {
+    color: #878787;
+}
+.footer-column a:hover {
+    color: #333;
+}
 
 #footer-thumbnails {
     margin-top: 20px;
