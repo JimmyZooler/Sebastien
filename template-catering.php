@@ -69,7 +69,7 @@ Template Name: Catering Page
                                 </div>
                             </div>
                             <div id="catering-button" class="button-container">
-                                <a class="green-button" href="<?php echo home_url(); ?>/contact">Tell us about your Event</a>
+                                <a class="green-button" href="#contact_form_pop">Tell us about your Event</a>
                             </div>
                             
                         </section>

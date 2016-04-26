@@ -22,8 +22,8 @@
 	<div class="top-bar-right float-right show-for-small-only">
             <div class="mobile-container">
                 <div class="mobile-social">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/watch?v=BR1KrmECv_c"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                 </div>
                 <ul class="mobile-menu">
                     <li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li> 

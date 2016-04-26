@@ -94,7 +94,15 @@ NAVIGATION STYLES
 .top-nav-social i {
     padding: 0 .8rem;
     position: relative;
-    top: -13px;}
+    top: -13px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+
+.top-nav-social i:hover {
+    color: #595959;
+}
 
 .medium-horizontal .menu-item a {
     border-bottom: 3px solid #8fc563;
@@ -127,7 +135,8 @@ NAVIGATION STYLES
     box-shadow: 0 8px 0 #878787,0 16px 0 #878787; }
 
 .menu-icon:hover:after {
-    box-shadow: 0 8px 0 #cacaca,0 16px 0 #cacaca; }
+    background-color: #595959;
+    box-shadow: 0 8px 0 #595959,0 16px 0 #595959; }
 
 .mobile-menu {
     margin: 0;
@@ -143,7 +152,12 @@ NAVIGATION STYLES
     float: left; }
 
 .mobile-social i {
+    color: #878787;
     padding: 0 .8rem; }
+.mobile-social i:hover {
+    color: #595959;
+}
+
 
 .mobile-container {
     border-bottom: 3px solid #8fc563;
