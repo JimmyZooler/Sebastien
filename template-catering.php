@@ -68,8 +68,17 @@ Template Name: Catering Page
                                     </div>
                                 </div>
                             </div>
+                            <div id="abc">
+                                <!-- Popup Div Starts Here -->
+                                <div id="popupContact">
+                                    <img id="close" src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/black_close.png" onclick ="div_hide()">
+                                <!-- Contact Us Form -->
+                                    <?php echo do_shortcode( '[contact-form-7 id="102" title="Event Form"]' ); ?>
+                                </div>
+                            <!-- Popup Div Ends Here -->
+                            </div>
                             <div id="catering-button" class="button-container">
-                                <a class="green-button" href="#contact_form_pop">Tell us about your Event</a>
+                                <a class="green-button" onclick="div_show()">Tell us about your Event</a>
                             </div>
                             
                         </section>
