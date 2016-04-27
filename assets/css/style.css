@@ -777,16 +777,16 @@ div#popupContact {
     left:50%;
     top:17%;
     margin-left:-202px;
-    font-family:'Raleway',sans-serif;
     transition: all 0.2s ease-in-out;}
 
-form {
+#popupContact form {
 max-width:500px;
 min-width:250px;
 padding:10px 50px;
 border:2px solid gray;
 border-radius:10px;
-background-color:#fff ;
+background-color: #fff;
+opacity: 1;
 text-align: left;
 transition: all 0.2s ease-in-out;
 }
