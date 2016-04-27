@@ -809,7 +809,7 @@ HERO IMAGE SLIDER STYLES
     width: 33px;
     height: 33px;
     overflow: hidden;
-    background-image: url('/sebastien/wordpress/wp-content/themes/sebastien_schwab/circled_chev_right.png');
+    background-image: url('http://sebastienschwabcuisine.flywheelsites.com/wp-content/themes/Sebastien_Schwab/circled_chev_right.png');
     background-size: cover;
     text-indent: -999rem;
     opacity: .6;

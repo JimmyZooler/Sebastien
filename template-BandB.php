@@ -13,7 +13,7 @@ Template Name: B&B Page
 		    <main id="main" class="large-12 medium-12 columns" role="main">
 			    <section class="white-box mystic-page">
                         
-                                <h2 class="section-header catering-header"><img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/nexa_header_leaves_left.jpg" max-width="80%">The Mystic Dandelion<img src="<?php echo home_url(); ?>/wp-content/themes/sebastien_schwab/images/nexa_header_leaves_right.jpg" max-width="80%"></h2>
+                                <h2 class="section-header catering-header"><img src="<?php echo get_template_directory_uri(); ?>/images/nexa_header_leaves_left.jpg" max-width="80%">The Mystic Dandelion<img src="<?php echo get_template_directory_uri(); ?>/images/nexa_header_leaves_right.jpg" max-width="80%"></h2>
                                 <h3 class="sub-header"><?php the_field('mystic_sub_header')?></h3>
                                 <div class="row mystic-section">
                                     <div class="columns medium-5 mystic-text">

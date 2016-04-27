@@ -24,17 +24,17 @@ Template Name: Home Page
                         <div class="row">
                             <div class="locations columns medium-4">
                                 <div class="location">
-                                    <a class="location-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/layer-7.jpg" ><div class="orange-overlay"><h2 class="location-heading-1">Huff Estates</h2></div></a>
+                                    <a class="location-link" href="<?php echo get_home_url(); ?>/lunch/"><img src="<?php echo get_template_directory_uri(); ?>/images/layer-7.jpg" ><div class="orange-overlay"><h2 class="location-heading-1">Huff Estates</h2></div></a>
                                 </div>
                             </div>
                             <div class="columns medium-4">
                                 <div class="location">
-                                    <a class="location-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Your_event.jpg" ><div class="orange-overlay"><h2 class="location-heading-1">Your Event</h2></div></a>
+                                    <a class="location-link" href="<?php echo get_home_url(); ?>/catering/"><img src="<?php echo get_template_directory_uri(); ?>/images/Your_event.jpg" ><div class="orange-overlay"><h2 class="location-heading-1">Your Event</h2></div></a>
                                 </div>
                             </div>
                             <div class="columns medium-4">
                                 <div class="location" >
-                                    <a class="location-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/BandB.jpg" ><div class="orange-overlay"><h2 class="location-heading">The Mystic Dandelion</h2></div></a>
+                                    <a class="location-link" href="<?php echo get_home_url(); ?>/bb/"><img src="<?php echo get_template_directory_uri(); ?>/images/BandB.jpg" ><div class="orange-overlay"><h2 class="location-heading">The Mystic Dandelion</h2></div></a>
                                 </div>
                             </div>
                         </div>
