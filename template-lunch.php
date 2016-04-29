@@ -16,9 +16,11 @@ Template Name: Lunch Page
                                 <div class="row">
                                     <h2 class="section-header"><img src="<?php echo get_template_directory_uri(); ?>/images/nexa_header_leaves_left.jpg" max-width="80%"><?php the_field('lunch_page_header')?><img src="<?php echo get_template_directory_uri(); ?>/images/nexa_header_leaves_right.jpg" max-width="80%"></h2>
                                     <h3 class="sub-header"><?php the_field('lunch_page_header_2')?></h3>
-                                    <div id="lunch-image">
-                                        <div class="overlay"></div>
-                                        <h4><?php the_field('lunch_image_text')?></h4>
+                                    <div id="lunch-image-container">
+                                        <div id="lunch-image">
+                                            <div class="overlay"></div>
+                                            <h4><?php the_field('lunch_image_text')?></h4>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row lunch-menu">
@@ -36,11 +38,11 @@ Template Name: Lunch Page
                                 <div class="row orange-bar text-center">
                                     <h5>Please advise you server of any food allergies.</h5>
                                     <div class="columns medium-offset-2 medium-4 text-center">
-                                        <img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/gluten_free-1.jpg">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/gluten_free-1.jpg">
                                         <h5>Gluten-free options available.</h5>
                                     </div>
                                     <div class="columns medium-4 text-center">
-                                        <img src="http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/apple-1.jpg">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/apple-1.jpg">
                                         <h5>Vegetarian/Vegan options available.</h5>
                                     </div>
                                     <div class="column"></div>

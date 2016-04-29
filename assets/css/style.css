@@ -183,7 +183,7 @@ POSTS & CONTENT STYLES
 }
 
 #content {
-    background-image: url('http://localhost/sebastien/wordpress/wp-content/uploads/2016/04/45degreee_fabric_@2X.png');
+    background-image: url('http://sebastienschwabcuisine.flywheelsites.com/wp-content/themes/Sebastien_Schwab/images/45degreee_fabric_@2X.png');
 }
 
 .page-title .vcard {
@@ -480,16 +480,21 @@ LUNCH PAGE STYLES
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 50vh;
+    height: 42vh;
     position: relative;
 }
 
+#lunch-image-container {
+    padding: 0;
+}
+
 #lunch-image h4 {
+    text-align: left;
     font-size: 90%;
     color: #fff;
     position: absolute;
-    top: 40%;
-    padding: 0 1rem;
+    top: 35%;
+    padding: 0 2rem;
 }
 
 .overlay {
@@ -502,12 +507,12 @@ LUNCH PAGE STYLES
     overflow: hidden; }
 
 .lunch-menu {
-    margin: 1rem 0;
+    margin: 1rem 1rem !important;
 }
 
 .lunch-menu p {
     text-align: left;
-    margin: 2rem;
+    margin: 2rem 0;
     font-size: 14px;}
 
 .lunch-menu p span {
@@ -539,9 +544,6 @@ LUNCH PAGE STYLES
 }
 .lunch-info {
     margin-top: 2rem;
-}
-.lunch-location p {
-    padding-left: 2rem;
 }
 
 /*********************
@@ -684,6 +686,9 @@ CATERING PAGE STYLES
     #mystic-button a {
         font-size: 1.6rem;
         padding: 1rem 3rem; }
+    #lunch-image h4 { 
+        padding: 0 5rem;
+    }
 }
 
 @media only screen and (min-width: 440px) {
@@ -697,12 +702,17 @@ CATERING PAGE STYLES
 }
 @media only screen and (max-width: 840px) and (min-width: 500px)  {
     #lunch-image h4 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }    
+    #lunch-image-container {
+        padding: 0 3rem;
+    }
+    .lunch-menu {
+        margin: 1rem 2rem !important; }
 }
 @media only screen and (min-width: 840px) {
     #lunch-image h4 {
-        font-size: 1.6rem;
+        font-size: 1.55rem;
     }
     .catering-content {
         padding-left: 50px;
@@ -713,7 +723,10 @@ CATERING PAGE STYLES
         margin: 3rem 0;
         padding-left: 3rem;
     }
-    
+    #lunch-image-container {
+        padding: 0 5rem; }
+    .lunch-menu {
+        margin: 1rem 5rem !important; }
 }
 
 @media only screen and (min-width: 640px) and (max-width: 940px){

@@ -3,7 +3,7 @@
                                                     <h4 id="footer-header">Friends of Chef Sebastien</h4>
                                                     <div id="footer-thumbnails" class="row column">
                                                         <div class="column small-3 footer-column">
-                                                            <a href="http://www.themysticdandelion.com"><img src="<?php echo get_template_directory_uri(); ?>/images/Mystic.jpg">
+                                                            <a href="http://www.themysticdandelion.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/Mystic.jpg">
                                                                 <p>The Mystic Dandelion</p></a>
                                                         </div>
                                                         <div class="column small-3 footer-column">
@@ -11,8 +11,8 @@
                                                             <p>Prince Edward County</p></a>
                                                         </div>
                                                         <div class="column small-3 footer-column">
-                                                            <a href="http://www.huffestates.com"><img src="<?php echo get_template_directory_uri(); ?>/images/huff.jpg">
-                                                            <p>Huff Estates</p></a>
+                                                            <a href="https://huffestates.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/huff.jpg">
+                                                            <p>Huff Estates Winery</p></a>
                                                         </div>
                                                         <div class="column small-3 footer-column">
                                                             <a href="http://www.slowfoodthecounty.ca"><img src="<?php echo get_template_directory_uri(); ?>/images/slow_food.jpg">
@@ -31,7 +31,7 @@
                                                             <p>Humble Bread</p></a>
                                                         </div>
                                                         <div class="column small-3 footer-column">
-                                                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/bloomfield.jpg">
+                                                            <a href="http://bloomfieldontario.ca/"><img src="<?php echo get_template_directory_uri(); ?>/images/bloomfield.jpg">
                                                             <p>Bloomfield Area Business</p></a>
                                                         </div>
                                                     </div>
